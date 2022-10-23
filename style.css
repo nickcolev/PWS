@@ -1,0 +1,40 @@
+body {
+  font-family: Helvetica, Arial, sans-serif; font-size: 1em;
+  color: #eee; background: #121;
+}
+
+h1	{ font-size: 2em; }
+h2	{ font-size: 1.75em; padding-top: 1.2em; }
+h3	{ font-size: 1.5em; padding-top: 1em; }
+h4	{ font-size: 1.25em; padding-top: 0.5em; }
+h5	{ font-size: 1.1em; padding-top: 0.3em; }
+h6	{ font-size: 1em; }
+
+small, .note { font-size: 75%; color: #ddc; }
+
+/*
+ * Prevents sub and sup affecting line-height in all browsers
+ * gist.github.com/413930
+ */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup	{ top: -0.5em; }
+sub	{ bottom: -0.25em; }
+
+img { border: 0; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+a	{ color: #ffcc00; text-decoration: none; }
+a:hover { color: #ffeb9b; text-decoration: underline; }
+
+pre.cp { overflow: auto; overflow-y: hidden; padding-left: 2em; }
+
+th	{ font-size: 80%; font-weight: normal; background-color: #232; }
+td	{ vertical-align: top; }
+nav	{ font-size: 9pt; font-weight: normal; display: block; }
+.dim { color: #343; }
