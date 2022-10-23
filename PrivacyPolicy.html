@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html><head><title>PWS</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.1"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<h2 class="top">PWS <a href="https://play.google.com/store/apps/details?id=com.vera5.httpd" title="@ Google Play"><img src="img/gp.svg" type="image/svg+xml" height="16"/></a><nav>Personal Web Server</nav><hr size=1></h2>
+
+<p>&nbsp;</p>
+<h1>Privacy Policy</h1>
+
+<div class="m2em">
+<p>The PWS does <b>not</b> collect any personal information.</p>
+</div>
+
+<h3>Permissions</h3>
+<div class="m2em">
+<p>On install, the PWS asks for the following permissions:</p>
+<p align="center"><img src="img/perm.png"/></p>
+<ul>
+ <li><b>Storage</b><br><small>modify/delete SD card contents</small>
+	<p class="m2em">The application implements POST, PUT, and DELETE methods. To do so, it has to write to the SD card. Note that on such requests only the &quot;document root&quot; folder is affected.<br><small>Because these HTTP methods are considered &quot;unsafe&quot; &mdash; the next versions of the application will provide option to disable them.</small></p></li>
+ <li><b>Network</b> communication<br><small>full Internet access</small>
+	<p class="m2em">This is a network application, so it needs such permission to provide it's core service.</li>
+ <li><b>System</b> tools<br><small>prevent tablet from sleeping</small>
+	<p class="m2em">This is for better responsiveness <small>(this option can be disabled in the application settings)</small>.
+	When a mobile device goes to sleep &mdash; Android may turn down the WiFi to save battery. In such case the device needs few moments to &quot;wake&quot; the WiFi to serve a request.
+	If PWS keep WiFi on, there will be no delay of the response.</p></li>
+</ul>
+</div>
+
+<p>&nbsp;</p>
+<hr size=1>
+<p class="note">PWS Privacy and Security was first mentioned at <a href="https://pws-android.blogspot.com/2015/04/privacy-and-security.html">this blog</a>.
+<br>This document was last updated on 2022-10-23.</p>
+
+</body></html>
